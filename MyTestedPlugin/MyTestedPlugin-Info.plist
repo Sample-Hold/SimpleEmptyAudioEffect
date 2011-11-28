@@ -2,6 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AudioComponents</key>
+	<dict>
+		<key>description</key>
+		<string>My tested plugin</string>
+		<key>factoryFunction</key>
+		<string>MyTestedPluginFactory</string>
+		<key>manufacturer</key>
+		<string>FRED</string>
+		<key>name</key>
+		<string>My Plugin</string>
+		<key>subtype</key>
+		<string>TEST</string>
+		<key>type</key>
+		<string>aufx</string>
+		<key>version</key>
+		<string>0xFFFFFFFF</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
