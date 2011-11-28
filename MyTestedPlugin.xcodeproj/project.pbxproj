@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6197C40148413520094BD7A /* AUBase in Resources */ = {isa = PBXBuildFile; fileRef = B6197C3F148413520094BD7A /* AUBase */; };
 		B63A7ADE147DC9AA00328C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B63A7ADC147DC9AA00328C30 /* InfoPlist.strings */; };
 		B63A7AF0147DDD8E00328C30 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A7AEF147DDD8E00328C30 /* CoreServices.framework */; };
 		B63A7AF3147DDD9700328C30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A7AF1147DDD9600328C30 /* AudioToolbox.framework */; };
@@ -59,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6197C3F148413520094BD7A /* AUBase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AUBase; sourceTree = "<group>"; };
 		B63A7AD0147DC9AA00328C30 /* MyTestedPlugin.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestedPlugin.component; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63A7ADB147DC9AA00328C30 /* MyTestedPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTestedPlugin-Info.plist"; sourceTree = "<group>"; };
 		B63A7ADD147DC9AA00328C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		B63A7AD9147DC9AA00328C30 /* MyTestedPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				B6197C3F148413520094BD7A /* AUBase */,
 				B6D29D0B147DE5AA00D1E23C /* Imported Sources */,
 				B63A7AF5147DDDD700328C30 /* Sources */,
 				B63A7ADA147DC9AA00328C30 /* Supporting Files */,
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63A7ADE147DC9AA00328C30 /* InfoPlist.strings in Resources */,
+				B6197C40148413520094BD7A /* AUBase in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
